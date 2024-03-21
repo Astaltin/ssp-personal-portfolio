@@ -19,9 +19,7 @@
 		></script>
 		<script src="script.js" defer></script>
 	</head>
-	<body
-		class="overflow-lg-hidden d-flex flex-column justify-content-between container-md fs-5 font-monospace"
-	>
+	<body class="d-flex flex-column container-md fs-5 font-monospace">
 		<nav class="mb-5 py-2">
 			<ul
 				class="nav nav-underline justify-content-end"
@@ -90,7 +88,7 @@
 						<p class="fs-2">An aspiring full stack developer</p>
 
 						<button
-							class="btn btn-lg btn-primary rounded-pill px-5"
+							class="btn btn-lg btn-danger rounded-pill px-5"
 							onclick="projectsTab()"
 						>
 							My Projects
@@ -104,15 +102,122 @@
 					/>
 				</div>
 			</section>
+
 			<section
-				class="tab-pane fade"
+				class="tab-pane fade mb-5"
 				id="projects"
 				role="tabpanel"
 				aria-labelledby="projects-tab"
 				tabindex="0"
 			>
-				projects
+				<div class="card border border-0 py-5 bg-transparent">
+					<div class="row g-0">
+						<div
+							class="col-md-6 mb-3 mb-md-0 me-md-3"
+							style="transform: rotate(-1deg)"
+						>
+							<img
+								src="./images/personalWebsite.png"
+								class="img-fluid rounded"
+							/>
+						</div>
+
+						<div class="col">
+							<div class="card-body">
+								<h1 class="card-title fw-bold mb-3">
+									Personal Website
+								</h1>
+
+								<p class="card-text">
+									This project was one of my favorites so far because
+									of how fun it was to make.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card border border-0 py-5 bg-transparent">
+					<div class="row g-0">
+						<div
+							class="col-md-6 order-md-2 mb-3 mb-md-0 ms-md-3"
+							style="transform: rotate(1deg)"
+						>
+							<img
+								src="./images/studentSuccess.png"
+								class="img-fluid rounded"
+							/>
+						</div>
+
+						<div class="col">
+							<div class="card-body text-end">
+								<h1 class="card-title fw-bold mb-3">Student Success</h1>
+
+								<p class="card-text">
+									Student Success is an organizing app specifically
+									designed for students. It enables you to stay on top
+									of your studies and reach your full potential.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card border border-0 py-5 bg-transparent">
+					<div class="row g-0">
+						<div
+							class="col-md-6 mb-3 mb-md-0 me-md-3 d-flex justify-content-center"
+							style="transform: rotate(-1deg)"
+						>
+							<img
+								src="./images/auCitHandbook.jpg"
+								class="img-fluid rounded img-thumbnail rounded"
+								width="300"
+							/>
+						</div>
+
+						<div class="col">
+							<div class="card-body">
+								<h1 class="card-title fw-bold mb-3">AU CIT Handbook</h1>
+
+								<p class="card-text">
+									The AU CIT Handbook is a companion app specifically
+									designed for CIT students. It familiarizes students
+									with the department, helping them navigate their
+									journey to adapt to their environment.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card border border-0 py-5 bg-transparent">
+					<div class="row g-0">
+						<div
+							class="col-md-6 order-md-2 mb-3 mb-md-0 ms-md-3 d-flex justify-content-center"
+							style="transform: rotate(1deg)"
+						>
+							<img
+								src="./images/aotErudite.jpg"
+								class="img-fluid rounded"
+								width="300"
+							/>
+						</div>
+
+						<div class="col">
+							<div class="card-body text-end">
+								<h1 class="card-title fw-bold mb-3">AOT Erudite</h1>
+
+								<p class="card-text">
+									AOT Erudite is a companion app for people who like
+									AOT or Attack on Titan.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
+
 			<section
 				class="tab-pane fade"
 				id="about"
@@ -120,7 +225,8 @@
 				aria-labelledby="about-tab"
 				tabindex="0"
 			>
-				about
+				<h1 class="fw-bold">References</h1>
+				<a href="https://astaltin.jobs180.com/" class="text-danger">Edward Gulmayo - Jobs180</a>
 			</section>
 		</main>
 	</body>
